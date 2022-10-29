@@ -3,29 +3,29 @@
 
   <div class="cards-container">
     <div class="cards-form">
-      <form>
+      <form #form="ngForm" (ngSubmit)="onSubmit()">
         <div class="form-group">
           <label for="">Card Name</label>
-          <input type="text" name="cardName">
+          <input type="text" name="cardholderName" [(ngModel)]="card.cardholderName">
         </div>
         <div class="form-group">
           <label for="">Card Number</label>
-          <input type="text" name="cardNumber">
+          <input type="text" name="cardNumber" [(ngModel)]="card.cardNumber">
         </div>
         <div class="form-group form-group-inline">
           <div>
             <label for="">CVC</label>
-            <input type="text" name="cvc">
+            <input type="text" name="cvc" [(ngModel)]="card.cvc">
           </div>
 
           <div>
             <label for="">Expiry Month</label>
-            <input type="text" name="expiryMonth">
+            <input type="text" name="expiryMonth" [(ngModel)]="card.expiryMonth">
           </div>
 
           <div>
             <label for="">Expiry Year</label>
-            <input type="text" name="expiryYear">
+            <input type="text" name="expiryYear" [(ngModel)]="card.expiryYear">
           </div>
         </div>
 

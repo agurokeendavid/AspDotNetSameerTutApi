@@ -5,18 +5,7 @@
     <projectFile profileName="IIS Express">Cards.Api/Cards.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d46b03df-20b8-46a6-992a-70a8bc13bacf" name="Changes" comment="add delete card action.">
-      <change afterPath="$PROJECT_DIR$/../UI/cards/src/app/models/card.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UI/cards/src/app/service/cards.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UI/cards/src/app/service/cards.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cards.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cards.Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/cards/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/cards/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/cards/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/cards/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/cards/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/cards/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/cards/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/cards/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/cards/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/cards/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/cards/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/cards/src/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="d46b03df-20b8-46a6-992a-70a8bc13bacf" name="Changes" comment="implement fetch all data from web api." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +87,7 @@
       <updated>1667062584407</updated>
       <workItem from="1667062587449" duration="1242000" />
       <workItem from="1667063858408" duration="247000" />
-      <workItem from="1667064122429" duration="3318000" />
+      <workItem from="1667064122429" duration="3755000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.">
       <created>1667062607289</created>
@@ -135,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667066280042</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implement fetch all data from web api.">
+      <created>1667069463285</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667069463285</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +158,7 @@
     <MESSAGE value="add get specific card and all cards." />
     <MESSAGE value="add update a card." />
     <MESSAGE value="add delete card action." />
-    <option name="LAST_COMMIT_MESSAGE" value="add delete card action." />
+    <MESSAGE value="implement fetch all data from web api." />
+    <option name="LAST_COMMIT_MESSAGE" value="implement fetch all data from web api." />
   </component>
 </project>
