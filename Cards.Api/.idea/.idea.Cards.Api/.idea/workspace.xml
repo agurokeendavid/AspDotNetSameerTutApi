@@ -5,7 +5,7 @@
     <projectFile profileName="IIS Express">Cards.Api/Cards.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d46b03df-20b8-46a6-992a-70a8bc13bacf" name="Changes" comment="implement fetch all data from web api." />
+    <list default="true" id="d46b03df-20b8-46a6-992a-70a8bc13bacf" name="Changes" comment="implement add functionality and auto load data after creating." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +87,7 @@
       <updated>1667062584407</updated>
       <workItem from="1667062587449" duration="1242000" />
       <workItem from="1667063858408" duration="247000" />
-      <workItem from="1667064122429" duration="3755000" />
+      <workItem from="1667064122429" duration="4562000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.">
       <created>1667062607289</created>
@@ -131,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667069463285</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implement add functionality and auto load data after creating.">
+      <created>1667070517663</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667070517663</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +166,7 @@
     <MESSAGE value="add update a card." />
     <MESSAGE value="add delete card action." />
     <MESSAGE value="implement fetch all data from web api." />
-    <option name="LAST_COMMIT_MESSAGE" value="implement fetch all data from web api." />
+    <MESSAGE value="implement add functionality and auto load data after creating." />
+    <option name="LAST_COMMIT_MESSAGE" value="implement add functionality and auto load data after creating." />
   </component>
 </project>

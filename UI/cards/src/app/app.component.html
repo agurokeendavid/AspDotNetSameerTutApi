@@ -42,7 +42,7 @@
           <span>{{ card.cardNumber }}</span>
         </div>
         <div class="card-row-action">
-          <a href="#"><i class="fas fa-trash"></i></a>
+          <a (click)="deleteCard(card.id);"><i class="fas fa-trash"></i></a>
         </div>
       </div>
     </div>
