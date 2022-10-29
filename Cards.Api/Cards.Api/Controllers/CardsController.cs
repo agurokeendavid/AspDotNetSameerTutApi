@@ -26,7 +26,7 @@ namespace Cards.Api.Controllers
         
         // Get Single Card
         [HttpGet]
-        [Route("id:guid")]
+        [Route("{id:guid}")]
         [ActionName("GetCard")]
         public async Task<IActionResult> GetCard([FromRoute] Guid id)
         {
@@ -49,7 +49,7 @@ namespace Cards.Api.Controllers
         
         // Updating a Card
         [HttpPut]
-        [Route("id:guid")]
+        [Route("{id:guid}")]
         public async Task<IActionResult> UpdateCard([FromRoute] Guid id, [FromBody] Card card)
         {
             var existingCard = await _cardsDbContext.Cards.FirstOrDefaultAsync(x => x.Id == id);
@@ -68,6 +68,23 @@ namespace Cards.Api.Controllers
 
         }
         
+        // Delete a Card
+        [HttpDelete]
+        [Route("{id:guid}")]
+        public async Task<IActionResult> DeleteCard([FromRoute] Guid id)
+        {
+            var existingCard = await _cardsDbContext.Cards.FirstOrDefaultAsync(x => x.Id == id);
+            
+            if (existingCard == null) return NotFound("Card not found");
+            
+            _cardsDbContext.Cards.Remove(existingCard);
+
+            await _cardsDbContext.SaveChangesAsync();
+
+            return Ok(existingCard);
+        }
+        
+       
         
     }
 }
