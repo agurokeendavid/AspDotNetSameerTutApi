@@ -5,8 +5,8 @@
     <projectFile profileName="IIS Express">Cards.Api/Cards.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d46b03df-20b8-46a6-992a-70a8bc13bacf" name="Changes" comment="add update a card.">
-      <change beforePath="$PROJECT_DIR$/Cards.Api/Controllers/CardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cards.Api/Controllers/CardsController.cs" afterDir="false" />
+    <list default="true" id="d46b03df-20b8-46a6-992a-70a8bc13bacf" name="Changes" comment="add delete card action.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cards.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cards.Api/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/pc/RiderProjects/AspDotNetSameerTutApi/Cards.Api/Cards.Api/Controllers/CardsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/pc/RiderProjects/AspDotNetSameerTutApi/Cards.Api/Cards.Api/Controllers/CardsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/pc/RiderProjects/AspDotNetSameerTutApi/Cards.Api/Cards.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -88,7 +89,7 @@
       <updated>1667062584407</updated>
       <workItem from="1667062587449" duration="1242000" />
       <workItem from="1667063858408" duration="247000" />
-      <workItem from="1667064122429" duration="1825000" />
+      <workItem from="1667064122429" duration="2547000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.">
       <created>1667062607289</created>
@@ -118,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667065535616</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add delete card action.">
+      <created>1667066280042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667066280042</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +152,7 @@
     <MESSAGE value="add new migration for cards table." />
     <MESSAGE value="add get specific card and all cards." />
     <MESSAGE value="add update a card." />
-    <option name="LAST_COMMIT_MESSAGE" value="add update a card." />
+    <MESSAGE value="add delete card action." />
+    <option name="LAST_COMMIT_MESSAGE" value="add delete card action." />
   </component>
 </project>
