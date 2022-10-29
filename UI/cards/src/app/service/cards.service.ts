@@ -25,4 +25,8 @@ export class CardsService {
   deleteCard(id: string) : Observable<Card> {
     return this.http.delete<Card>(this.baseUrl + '/' + id);
   }
+
+  updateCard(card: Card) : Observable<Card> {
+    return this.http.put<Card>(this.baseUrl + '/' + card.id, card);
+  }
 }
